@@ -2,8 +2,8 @@
 table {
   border-bottom: 1px solid orange; /* Explicitly define borders for all cells */
   border-left: 1px solid orange; /* Explicitly define borders for all cells */
-  border-top: 0; /* Explicitly define borders for all cells */
-  border-right: 0;
+  border-top: 0px solid orange; /* Explicitly define borders for all cells */
+  border-right: 0px solid orange;
   width: 100%;
   border-collapse: collapse; /* Ensures that borders are rendered correctly */
 }
@@ -11,8 +11,8 @@ table {
 th, td {
   border-bottom: 1px solid orange; /* Explicitly define borders for all cells */
   border-left: 1px solid orange; /* Explicitly define borders for all cells */
-  border-top: 0; /* Explicitly define borders for all cells */
-  border-right: 0; /* Explicitly define borders for all cells */
+  border-top: 0px solid orange; /* Explicitly define borders for all cells */
+  border-right: 0px solid orange; /* Explicitly define borders for all cells */
 	
 	
 	
