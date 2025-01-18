@@ -6,8 +6,7 @@ table {
 }
 
 th, td {
-  border-bottom: 1px solid orange;
-  border-left: 1px solid orange;
+  border: 1px solid orange; /* Updated to ensure borders meet test expectations */
   text-align: center;
   padding: 3px 5px;
 }
