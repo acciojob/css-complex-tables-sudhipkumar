@@ -1,24 +1,15 @@
 /*  your css code here. If applicable */
 table {
-  border-bottom: 0px solid orange; /* Explicitly define borders for all cells */
-  border-left: 0px solid orange; /* Explicitly define borders for all cells */
-  border-top: 1px solid orange; /* Explicitly define borders for all cells */
-  border-right: 1px solid orange;
+border: 1px solid orange;
   width: 100%;
-  border-collapse: collapse; /* Ensures that borders are rendered correctly */
+  border-collapse: collapse; 
 }
 
 th, td {
-  border-bottom: 0px solid orange; /* Explicitly define borders for all cells */
-  border-left: 0px solid orange; /* Explicitly define borders for all cells */
-  border-top: 1px solid orange; /* Explicitly define borders for all cells */
-  border-right: 1px solid orange; /* Explicitly define borders for all cells */
-	
-	
-	
+  border: 1px solid orange;
   text-align: center;
   padding: 3px 5px;
-  box-sizing: border-box; /* Prevents padding or width issues from affecting borders */
+  box-sizing: border-box;
 }
 
 th {
