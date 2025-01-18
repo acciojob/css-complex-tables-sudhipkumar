@@ -1,6 +1,6 @@
 /*  your css code here. If applicable */
 table, th, td{
-	border:2px solid orange;
+	border:1px solid orange;
 	border-collapse:collapse;
 	padding:3px 5px;
 	text-align:center;
