@@ -6,7 +6,9 @@ table {
 }
 
 th, td {
-  border: 1px solid orange; /* Explicitly define borders for all cells */
+  border-bottom: 1px solid orange; /* Explicitly define borders for all cells */
+  border-left: 1px solid orange; /* Explicitly define borders for all cells */
+	
   text-align: center;
   padding: 3px 5px;
   box-sizing: border-box; /* Prevents padding or width issues from affecting borders */
