@@ -2,13 +2,14 @@
 table {
   border: 1px solid orange;
   width: 100%;
-  border-collapse: collapse;
+  border-collapse: collapse; /* Ensures borders are merged */
 }
 
 th, td {
-  border: 1px solid orange; /* Updated to ensure borders meet test expectations */
+  border: 1px solid orange; /* Explicitly define the borders */
   text-align: center;
   padding: 3px 5px;
+  box-sizing: border-box; /* Ensures consistent styling */
 }
 
 th {
