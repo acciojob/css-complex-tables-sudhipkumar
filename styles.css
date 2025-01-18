@@ -1,6 +1,9 @@
 /*  your css code here. If applicable */
 table {
-  border: 1px solid orange;
+  border-bottom: 1px solid orange; /* Explicitly define borders for all cells */
+  border-left: 1px solid orange; /* Explicitly define borders for all cells */
+  border-top: 0; /* Explicitly define borders for all cells */
+  border-right: 0;
   width: 100%;
   border-collapse: collapse; /* Ensures that borders are rendered correctly */
 }
@@ -8,6 +11,10 @@ table {
 th, td {
   border-bottom: 1px solid orange; /* Explicitly define borders for all cells */
   border-left: 1px solid orange; /* Explicitly define borders for all cells */
+  border-top: 0; /* Explicitly define borders for all cells */
+  border-right: 0; /* Explicitly define borders for all cells */
+	
+	
 	
   text-align: center;
   padding: 3px 5px;
