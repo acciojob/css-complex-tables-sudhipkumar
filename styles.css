@@ -11,3 +11,7 @@ table th{
 	color:white;
 }
 
+.sub-total-row, .sub-total-text{
+	text-align:right;
+}
+
