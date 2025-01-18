@@ -2,5 +2,12 @@
 table, th, td{
 	border:2px solid orange;
 	border-collapse:collapse;
+	padding:3px 5px;
+	text-align:center;
+}
+
+table th{
+	background-color:#888888;
+	color:white;
 }
 
