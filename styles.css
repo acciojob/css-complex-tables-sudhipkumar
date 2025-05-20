@@ -6,7 +6,10 @@ border: 1px solid orange;
 }
 
 th, td {
-  border: 1px solid orange;
+  border-top: 0;
+  border-right: 0;
+  border-bottom: 1px solid orange;
+  border-left: 1px solid orange;
   text-align: center;
   padding: 3px 5px;
   box-sizing: border-box;
