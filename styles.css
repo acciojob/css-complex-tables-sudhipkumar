@@ -7,7 +7,7 @@ table {
 th, td {
   border-style: solid;
   border-color: orange;
-  border-width: 0px 0px 1px 1px; /* top right bottom left */
+  border-width: 1px; /* Apply 1px to all sides */
   text-align: center;
   padding: 3px 5px;
   box-sizing: border-box;
@@ -19,5 +19,5 @@ th {
 }
 
 .sub-total-text {
-  text-align: center;
+  text-align: right; /* Change to right alignment */
 }
