@@ -1,8 +1,7 @@
 /*  your css code here. If applicable */
 table {
-border: 1px solid orange;
   width: 100%;
-  border-collapse: collapse; 
+  border-collapse: collapse;
 }
 
 th, td {
