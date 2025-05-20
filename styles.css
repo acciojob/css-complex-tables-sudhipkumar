@@ -5,10 +5,9 @@ table {
 }
 
 th, td {
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid orange;
-  border-left: 1px solid orange;
+  border-style: solid;
+  border-color: orange;
+  border-width: 0px 0px 1px 1px; /* top right bottom left */
   text-align: center;
   padding: 3px 5px;
   box-sizing: border-box;
